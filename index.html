@@ -1,72 +1,51 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>阅读乐园</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>阅读乐园</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <div class="app">
+    <header class="topbar">
+      <div class="top-left">
+        <div class="avatar">🐰</div>
+        <div class="welcome">欢迎回来！小朋友</div>
+      </div>
+      <div class="stars">
+        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span class="off">⭐</span>
+        <div class="stars-text">今日星星</div>
+      </div>
+    </header>
 
-<div class="background">
+    <main class="hero">
+      <div class="title-wrap">
+        <h1>阅读乐园</h1>
+        <p>快乐阅读 · 天天进步</p>
+      </div>
 
-    <div class="cloud cloud1"></div>
-    <div class="cloud cloud2"></div>
-    <div class="cloud cloud3"></div>
+      <section class="book-card">
+        <div class="bookmark">★</div>
+        <div class="book-label">第四册</div>
+        <div class="book-name">《我的家人》</div>
+        <div class="family">👨‍👩‍👧‍👦</div>
+        <button id="startBtn" class="start-btn">📖 开始学习</button>
+      </section>
 
-    <div class="sun">☀️</div>
+      <div class="speech-bubble">一起开始阅读吧！</div>
+    </main>
 
-    <div class="rainbow"></div>
+    <nav class="bottom-nav">
+      <button class="nav-item">📚<span>我的书架</span></button>
+      <button class="nav-item">🏆<span>星星奖励</span></button>
+      <button class="nav-item">🎮<span>趣味游戏</span></button>
+      <button class="nav-item">👨‍👩‍👧<span>家长中心</span></button>
+    </nav>
 
-    <div class="grass"></div>
+    <footer class="footer-note">每天阅读一点点，进步看得见！</footer>
+  </div>
 
-</div>
-
-<div class="container">
-
-    <h1 class="logo">
-        📚 阅读乐园
-    </h1>
-
-    <p class="subtitle">
-        快乐阅读 · 天天进步
-    </p>
-
-    <div class="book">
-
-        <div class="rabbit">
-            🐰
-        </div>
-
-        <div class="book-cover">
-
-            <div class="book-title">
-                第四册
-            </div>
-
-            <div class="book-name">
-                《我的家人》
-            </div>
-
-            <div class="book-icon">
-                📖
-            </div>
-
-        </div>
-
-    </div>
-
-    <button id="startBtn">
-        🌟 开始学习 🌟
-    </button>
-
-</div>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
