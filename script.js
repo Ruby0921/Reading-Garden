@@ -1,5 +1,5 @@
-document.getElementById("book4").addEventListener("click", function () {
+const startBtn = document.getElementById("startBtn");
 
-    alert("欢迎来到第四册《我的家人》！\n\n第一版网站制作中...");
-
+startBtn.addEventListener("click", () => {
+  alert("第四册《我的家人》即将开始阅读！");
 });
